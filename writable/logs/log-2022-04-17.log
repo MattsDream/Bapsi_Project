@@ -1,0 +1,78 @@
+CRITICAL - 2022-04-17 02:37:35 --> Invalid file: index.php
+#0 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 /home/u7653345/public_html/matt.shennx.net/bapsi2/app/Controllers/Home.php(9): view('index')
+#3 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#4 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u7653345/public_html/matt.shennx.net/bapsi2/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-17 02:43:32 --> Invalid file: layout/landing-header.php
+#0 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/landing-...')
+#1 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/View/View.php(226): CodeIgniter\View\View->render('layout/landing-...', Array, true)
+#2 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 /home/u7653345/public_html/matt.shennx.net/bapsi2/app/Controllers/Home.php(9): view('index')
+#4 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#5 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u7653345/public_html/matt.shennx.net/bapsi2/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-17 02:45:29 --> Invalid file: layout/page_layout.php
+#0 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/page_lay...')
+#1 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/View/View.php(226): CodeIgniter\View\View->render('layout/page_lay...', Array, true)
+#2 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 /home/u7653345/public_html/matt.shennx.net/bapsi2/app/Controllers/Home.php(9): view('index')
+#4 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#5 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u7653345/public_html/matt.shennx.net/bapsi2/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-17 02:45:30 --> Invalid file: layout/page_layout.php
+#0 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/page_lay...')
+#1 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/View/View.php(226): CodeIgniter\View\View->render('layout/page_lay...', Array, true)
+#2 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 /home/u7653345/public_html/matt.shennx.net/bapsi2/app/Controllers/Home.php(9): view('index')
+#4 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#5 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u7653345/public_html/matt.shennx.net/bapsi2/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-17 02:45:55 --> Invalid file: layout/landing-page.php
+#0 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/landing-...')
+#1 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/View/View.php(226): CodeIgniter\View\View->render('layout/landing-...', Array, true)
+#2 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 /home/u7653345/public_html/matt.shennx.net/bapsi2/app/Controllers/Home.php(9): view('index')
+#4 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#5 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u7653345/public_html/matt.shennx.net/bapsi2/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-17 02:45:56 --> Invalid file: layout/landing-page.php
+#0 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/landing-...')
+#1 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/View/View.php(226): CodeIgniter\View\View->render('layout/landing-...', Array, true)
+#2 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 /home/u7653345/public_html/matt.shennx.net/bapsi2/app/Controllers/Home.php(9): view('index')
+#4 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#5 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u7653345/public_html/matt.shennx.net/bapsi2/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-17 02:45:57 --> Invalid file: layout/landing-page.php
+#0 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/landing-...')
+#1 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/View/View.php(226): CodeIgniter\View\View->render('layout/landing-...', Array, true)
+#2 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 /home/u7653345/public_html/matt.shennx.net/bapsi2/app/Controllers/Home.php(9): view('index')
+#4 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#5 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/u7653345/public_html/matt.shennx.net/bapsi2/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-17 02:53:04 --> Invalid file: about_us.php
+#0 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('about_us.php')
+#1 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/Common.php(1089): CodeIgniter\View\View->render('about_us', Array, true)
+#2 /home/u7653345/public_html/matt.shennx.net/bapsi2/app/Controllers/Home.php(12): view('about_us')
+#3 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/CodeIgniter.php(832): App\Controllers\Home->about_us()
+#4 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /home/u7653345/public_html/matt.shennx.net/bapsi2/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/u7653345/public_html/matt.shennx.net/bapsi2/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

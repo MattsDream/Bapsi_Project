@@ -1,0 +1,46 @@
+:root {
+    --color-gunadarma: rgba(125, 0, 118, 1);
+    --scroll-bar-color: #7D0076;
+    --scroll-bar-bg-color: #FBD8A7;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--scroll-bar-color) var(--scroll-bar-bg-color);
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--scroll-bar-bg-color);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-bar-color);
+    border-radius: 20px;
+    border: 3px solid var(--scroll-bar-bg-color);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.list-group .borderless {
+    border: none;
+}
+
+.text-purple {
+    color:rgba(125, 0, 118, 1);
+}
+
+.btn-outline-purple {
+    color: rgba(125, 0, 118, 1);
+    border-color: rgba(125, 0, 118, 1);
+}
+
+.btn-outline-purple:hover {
+  background-color: rgba(125, 0, 118, 1);
+  color: white;
+}
